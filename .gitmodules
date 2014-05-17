@@ -1,3 +1,0 @@
-[submodule "thrift"]
-	path = thrift
-	url = https://github.com/lmirosevic/Goonbee-Thrift-Chat.git
