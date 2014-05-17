@@ -13,6 +13,7 @@
 #import <thrift/TSocketClient.h>
 #import <thrift/TBinaryProtocol.h>
 #import <thrift/TTransportException.h>
+#import <GBToolbox/GBToolbox.h>
 
 static NSUInteger const kDefaultPort =                              56475;
 

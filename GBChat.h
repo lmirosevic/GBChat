@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "thrift/gen-cocoa/GoonbeeChatService.h"
+#import "GoonbeeChatService.h"
 
 typedef void(^GBChatCallCompletionBlock)(enum GBChatResponseStatus status, id result, BOOL cancelled);
 
