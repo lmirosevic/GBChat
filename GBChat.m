@@ -13,7 +13,6 @@
 #import <thrift/TSocketClient.h>
 #import <thrift/TBinaryProtocol.h>
 #import <thrift/TTransportException.h>
-#import "GoonbeeChatService.h"
 
 static NSUInteger const kDefaultPort =                              56475;
 
