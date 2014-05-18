@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.public_header_files   = 'GBChat.h', 'thrift/gen-cocoa/*.h'
 
   s.dependency 'GBToolbox'
-  s.dependency 'thrift', '~> 0.9'
+  s.dependency 'GBThriftApi', '~> 0.1'
 end
