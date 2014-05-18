@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
   s.requires_arc          = true
-  s.source_files          = 'GBChat.{h,m}', 'thrift/gen-cocoa/*.{h,m}'
-  s.public_header_files   = 'GBChat.h', 'thrift/gen-cocoa/*.h'
+  s.source_files          = 'GBChat.{h,m}', 'thrift/gen-cocoa/GoonbeeChatService.{h,m}'
+  s.public_header_files   = 'GBChat.h', 'thrift/gen-cocoa/GoonbeeChatService.h'
 
   s.dependency 'GBToolbox'
   s.dependency 'GBThriftApi', '~> 0.1'
