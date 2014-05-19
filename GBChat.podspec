@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'GBChat'
-  s.version               = '0.1.6'
+  s.version               = '0.1.7'
   s.summary               = 'Objective-C client library for Goonbee\'s chat service, for iOS and OS X.'
   s.homepage              = 'https://github.com/lmirosevic/GBChat'
   s.license               = { type: 'Apache License, Version 2.0', file: 'LICENSE' }
