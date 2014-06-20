@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'GBChat'
-  s.version               = '0.1.7'
+  s.version               = '1.0.0'
   s.summary               = 'Objective-C client library for Goonbee\'s chat service, for iOS and OS X.'
   s.homepage              = 'https://github.com/lmirosevic/GBChat'
   s.license               = { type: 'Apache License, Version 2.0', file: 'LICENSE' }
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.public_header_files   = 'GBChat.h', 'thrift/gen-cocoa/GoonbeeChatService.h'
 
   s.dependency 'GBToolbox'
-  s.dependency 'GBThriftApi', '~> 0.1'
+  s.dependency 'GBThriftApi', '~> 1.0'
 end
